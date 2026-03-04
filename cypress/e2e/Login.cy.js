@@ -1,0 +1,27 @@
+describe('Visitar o site e se logar', () => {
+  it('passes', () => {
+    cy.visit('https://automationexercise.com/')
+    cy.get('.fa.fa-lock').click()
+    cy.get('[data-qa="signup-name"]').type('Testadora')
+    cy.get('[data-qa="signup-email"]').type('testadora@gmail.com')
+    cy.get('[data-qa="signup-button"]').click()
+
+    cy.get('#id_gender2').click()
+    cy.get('#password').type('testadora123')
+    cy.get('#days').select('1')
+    cy.get('#months').select('January')
+    cy.get('#years').select('2002')
+    cy.get('#newsletter').check()
+    cy.get('#optin').check()
+
+    cy.get('#first_name').type('Testadora')
+    cy.get('#last_name').type('Junior')
+    cy.get('#address1').type('Rua Napolitano')
+    cy.get('#country').select('Australia')
+    cy.get('#state').type('Victoria')
+    cy.get('#city').type('Melbourne')
+    cy.get('#zipcode').type('3000')
+    cy.get('#mobile_number').type('9988776655')
+    cy.get('[data-qa="create-account"]').click()
+  })
+})

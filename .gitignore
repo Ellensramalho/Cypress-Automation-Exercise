@@ -1,0 +1,24 @@
+# dependências
+node_modules/
+
+# arquivos de ambiente
+.env
+.env.*
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# build
+dist/
+build/
+
+# sistema
+.DS_Store
+Thumbs.db
