@@ -13,7 +13,7 @@ Projeto de automação de testes end-to-end utilizando **Cypress**, validação 
 ---
 
 ## 📂 Estrutura do projeto
-````
+```
 cypress/
 ├── e2e/
 ├── fixtures/
