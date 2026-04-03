@@ -24,5 +24,3 @@ cypress/
 ## 💡 Objetivo
 
 Praticar automação E2E e demonstrar habilidades em QA com Cypress.
-
-Se quiser, posso fazer uma versão **curta + chamativa (com badges estilo GitHub top)** que chama mais atenção de recrutador 👀
